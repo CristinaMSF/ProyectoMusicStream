@@ -1,5 +1,19 @@
 -- digo que borre porque mi pc ya tiene creada una base de datos llamada asi(podeis hacerlo, borra lo anterior que esta ''mal'' y crea la nueva
  
+ -- Un artista puede tener muchos álbumes, pero cada álbum pertenece a un único artista 
+
+-- Un álbum puede contener muchas canciones, pero cada canción pertenece a un único álbum
+
+-- resumen gráfico de las relaciones:
+-- uno a muchos (1:N)
+-- artistas → tiene muchos → albumes
+-- albumes→ tiene muchas → canciones 
+-- muchos a muchos (N:M)
+-- artistas ↔️ Canciones 
+
+
+-- Un artista puede estar en muchas canciones (como artista colaborador en canciones de otros).
+-- Una canción puede tener múltiples artistas
  --  ON DELETE CASCADE en claves foráneas 
  -- Si un artista se elimina, sus álbumes y canciones también se eliminan automáticamente.
  
@@ -26,7 +40,7 @@ CREATE TABLE Artistas (
 
 -- esta tabla añado la Pk y la Fk, para ello he tenido que meter id_artista para la relacion
 CREATE TABLE Albumes (
-    id_album VARCHAR(50) PRIMARY KEY,
+    id_album VARCHAR(100) PRIMARY KEY,
     titulo_album VARCHAR(75) NOT NULL,
     año_lanzamiento YEAR NOT NULL,
     id_artista INT NOT NULL,  -- Se agrega la columna para la relación con Artistas
