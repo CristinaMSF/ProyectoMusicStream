@@ -69,3 +69,14 @@ ADD COLUMN id_cancion INT PRIMARY KEY AUTO_INCREMENT;
  
 SELECT * 
 FROM Canciones;
+
+-- VAMOS A AÑADIR FK
+    
+ALTER TABLE albumes
+	ADD CONSTRAINT fk_artista
+    FOREIGN KEY (id_artista) REFERENCES artistas(id_artista);
+    
+SELECT *
+	FROM
+-- ALBUMES FOREIGN KEY (artista_id) REFERENCES artistas(id)
+-- CANCIONES FOREIGN KEY (album_id) REFERENCES albumes(id)
