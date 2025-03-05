@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,ID,Artista,Género,Tipo,Nombre del Álbum,Año de lanzamiento
 0,06Q5VlSAku57lFzyME3HrM,Ke Personajes,cumbia,Álbum,Pobre Corazón (En Vivo),2023
 1,06Q5VlSAku57lFzyME3HrM,Ke Personajes,cumbia,Álbum,Adiós Amor / Oye Mujer,2020
@@ -35,3 +36,20 @@
 33,0lAWpj5szCSwM4rUMHYmrr,Måneskin,Género no disponible,Álbum,GOSSIP (feat. Tom Morello),2023
 34,0lAWpj5szCSwM4rUMHYmrr,Måneskin,Género no disponible,Álbum,SUPERMODEL,2022
 35,0lAWpj5szCSwM4rUMHYmrr,Måneskin,Género no disponible,Álbum,MAMMAMIA,2021
+=======
+<<<<<<< HEAD
+,Artista,Género,Tipo,Nombre,Año de lanzamiento,ID,Todos los artistas
+0,Criss y su Grupo La Magia,Género no disponible,Álbum,5 No Mas,2022-11-21,6Y2puvQQXONLRbPrRKTAMg,Criss y su Grupo La Magia
+1,Ariana Grande,pop,Álbum,Positions (Deluxe),2021-02-19,74vajFwEwXJ61OW1DKSPEa,Ariana Grande
+2,Linkin Park,nu metal,Álbum,Meteora 20th Anniversary Edition,2023-04-07,3Q9wXhEAX7NYCPP0hxIuDz,Linkin Park
+3,Amelie Lens,techno,Álbum,Hypnotized,2019-07-05,68XbUQdwTqfl0Hl3ZHJWgW,Amelie Lens
+4,Måneskin,Género no disponible,Álbum,MAMMAMIA,2021-10-08,7lVXNBav3Z8oA4jGk62Gme,Måneskin
+=======
+,Unnamed: 0,Artista,Género,Tipo,Nombre,Año de lanzamiento,ID,Todos los artistas
+0,0,Criss y su Grupo La Magia,Género no disponible,Álbum,5 No Mas,2022-11-21,6Y2puvQQXONLRbPrRKTAMg,Criss y su Grupo La Magia
+1,1,Ariana Grande,pop,Álbum,Positions (Deluxe),2021-02-19,74vajFwEwXJ61OW1DKSPEa,Ariana Grande
+2,2,Linkin Park,nu metal,Álbum,Meteora 20th Anniversary Edition,2023-04-07,3Q9wXhEAX7NYCPP0hxIuDz,Linkin Park
+3,3,Amelie Lens,techno,Álbum,Hypnotized,2019-07-05,68XbUQdwTqfl0Hl3ZHJWgW,Amelie Lens
+4,4,Måneskin,Género no disponible,Álbum,MAMMAMIA,2021-10-08,7lVXNBav3Z8oA4jGk62Gme,Måneskin
+>>>>>>> f7e617af25794d24444218752ed272b2ad0b4907
+>>>>>>> 8211a164f7f3d08a35f78f1e8d8852c3f61d0e6e
