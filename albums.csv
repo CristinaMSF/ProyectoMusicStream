@@ -1,6 +1,37 @@
-,Unnamed: 0,Artista,Género,Tipo,Nombre,Año de lanzamiento,ID,Todos los artistas
-0,0,Criss y su Grupo La Magia,Género no disponible,Álbum,5 No Mas,2022-11-21,6Y2puvQQXONLRbPrRKTAMg,Criss y su Grupo La Magia
-1,1,Ariana Grande,pop,Álbum,Positions (Deluxe),2021-02-19,74vajFwEwXJ61OW1DKSPEa,Ariana Grande
-2,2,Linkin Park,nu metal,Álbum,Meteora 20th Anniversary Edition,2023-04-07,3Q9wXhEAX7NYCPP0hxIuDz,Linkin Park
-3,3,Amelie Lens,techno,Álbum,Hypnotized,2019-07-05,68XbUQdwTqfl0Hl3ZHJWgW,Amelie Lens
-4,4,Måneskin,Género no disponible,Álbum,MAMMAMIA,2021-10-08,7lVXNBav3Z8oA4jGk62Gme,Måneskin
+,ID,Artista,Género,Tipo,Nombre del Álbum,Año de lanzamiento
+0,06Q5VlSAku57lFzyME3HrM,Ke Personajes,cumbia,Álbum,Pobre Corazón (En Vivo),2023
+1,06Q5VlSAku57lFzyME3HrM,Ke Personajes,cumbia,Álbum,Adiós Amor / Oye Mujer,2020
+2,06Q5VlSAku57lFzyME3HrM,Ke Personajes,cumbia,Álbum,Si No Te Tengo / Ángel / Aquello Que Pasó,2021
+3,06Q5VlSAku57lFzyME3HrM,Ke Personajes,cumbia,Álbum,Otro Día Más,2021
+4,06Q5VlSAku57lFzyME3HrM,Ke Personajes,cumbia,Álbum,Cómo estás,2019
+5,06Q5VlSAku57lFzyME3HrM,Ke Personajes,cumbia,Álbum,Como la Flor,2022
+6,06Q5VlSAku57lFzyME3HrM,Ke Personajes,cumbia,Álbum,Entre Beso y Beso,2023
+7,06Q5VlSAku57lFzyME3HrM,Ke Personajes,cumbia,Álbum,Entre el Odio y el Amor (En Vivo),2024
+8,06Q5VlSAku57lFzyME3HrM,Ke Personajes,cumbia,Álbum,Intento (En Vivo),2024
+9,66CXWjxzNUsdJxJ2JdwvnR,Ariana Grande,pop,Álbum,eternal sunshine,2024
+10,66CXWjxzNUsdJxJ2JdwvnR,Ariana Grande,pop,Álbum,"thank u, next",2019
+11,66CXWjxzNUsdJxJ2JdwvnR,Ariana Grande,pop,Álbum,Positions,2020
+12,66CXWjxzNUsdJxJ2JdwvnR,Ariana Grande,pop,Álbum,eternal sunshine,2024
+13,66CXWjxzNUsdJxJ2JdwvnR,Ariana Grande,pop,Álbum,Stuck with U,2020
+14,66CXWjxzNUsdJxJ2JdwvnR,Ariana Grande,pop,Álbum,Positions (Deluxe),2021
+15,6XyY86QOPPrYVGvF9ch6wz,Linkin Park,nu metal,Álbum,From Zero,2024
+16,6XyY86QOPPrYVGvF9ch6wz,Linkin Park,nu metal,Álbum,The Emptiness Machine,2024
+17,6XyY86QOPPrYVGvF9ch6wz,Linkin Park,nu metal,Álbum,Heavy Is the Crown,2024
+18,6XyY86QOPPrYVGvF9ch6wz,Linkin Park,nu metal,Álbum,Meteora 20th Anniversary Edition,2023
+19,5Ho1vKl1Uz8bJlk4vbmvmf,Amelie Lens,techno,Álbum,Falling For You,2024
+20,5Ho1vKl1Uz8bJlk4vbmvmf,Amelie Lens,techno,Álbum,Breathe,2024
+21,5Ho1vKl1Uz8bJlk4vbmvmf,Amelie Lens,techno,Álbum,Feel It,2023
+22,5Ho1vKl1Uz8bJlk4vbmvmf,Amelie Lens,techno,Álbum,You and Me,2023
+23,5Ho1vKl1Uz8bJlk4vbmvmf,Amelie Lens,techno,Álbum,Global Underground #44: Amelie Lens - Antwerp (DJ Mix),2022
+24,5Ho1vKl1Uz8bJlk4vbmvmf,Amelie Lens,techno,Álbum,Underneath The Strobelights (Exhale VA005),2024
+25,5Ho1vKl1Uz8bJlk4vbmvmf,Amelie Lens,techno,Álbum,Global Underground #44: Amelie Lens - Antwerp (Unmixed),2022
+26,5Ho1vKl1Uz8bJlk4vbmvmf,Amelie Lens,techno,Álbum,fabric presents Amelie Lens (DJ Mix),2019
+27,5Ho1vKl1Uz8bJlk4vbmvmf,Amelie Lens,techno,Álbum,Hypnotized,2019
+28,0lAWpj5szCSwM4rUMHYmrr,Måneskin,Género no disponible,Álbum,Teatro d'ira - Vol. I,2021
+29,0lAWpj5szCSwM4rUMHYmrr,Måneskin,Género no disponible,Álbum,RUSH!,2023
+30,0lAWpj5szCSwM4rUMHYmrr,Måneskin,Género no disponible,Álbum,RUSH! (ARE U COMING?),2023
+31,0lAWpj5szCSwM4rUMHYmrr,Måneskin,Género no disponible,Álbum,RUSH!,2023
+32,0lAWpj5szCSwM4rUMHYmrr,Måneskin,Género no disponible,Álbum,THE LONELIEST,2022
+33,0lAWpj5szCSwM4rUMHYmrr,Måneskin,Género no disponible,Álbum,GOSSIP (feat. Tom Morello),2023
+34,0lAWpj5szCSwM4rUMHYmrr,Måneskin,Género no disponible,Álbum,SUPERMODEL,2022
+35,0lAWpj5szCSwM4rUMHYmrr,Måneskin,Género no disponible,Álbum,MAMMAMIA,2021
