@@ -20,13 +20,13 @@
  -- DEFAULT 0 en oyentes y reproducciones
 -- Si no se proporciona un valor, se establece en 0 por defecto.
 
-DROP DATABASE IF EXISTS proyecto_music_stream;
+DROP DATABASE IF EXISTS pproyecto_music_stream;
 
 -- y creo otra vez
 
-CREATE DATABASE IF NOT EXISTS proyecto_music_stream;
+CREATE DATABASE IF NOT EXISTS pproyecto_music_stream;
 
-USE proyecto_music_stream;
+USE pproyecto_music_stream;
 
 -- esta tabla esta igual:
 CREATE TABLE Artistas (
@@ -34,8 +34,7 @@ CREATE TABLE Artistas (
 	nombre_artista VARCHAR (50) NOT NULL,
 	biografia VARCHAR(500),
     oyentes INT DEFAULT 0, -- Si no se especifica, comienza en 0
-    genero_musical VARCHAR(20),
-    artistas_similares VARCHAR(200)  -- Puede mejorarse con una tabla aparte artistas_similares, ahora no es una relación normalizada
+    genero_musical VARCHAR(20)
     );
 
 -- esta tabla añado la Pk y la Fk, para ello he tenido que meter id_artista para la relacion
@@ -68,4 +67,18 @@ CREATE TABLE Artistas_en_Canciones (
     CONSTRAINT fk_artistas_en_canciones_canciones
         FOREIGN KEY (id_cancion) REFERENCES Canciones(id_cancion) ON DELETE CASCADE
     );
- 
+    
+-- para almacenar relaciones de artistas similares
+CREATE TABLE Artistas_Similares (
+    id_artista INT NOT NULL,
+    id_artista_similar INT NOT NULL,
+    coincidencia FLOAT,
+    PRIMARY KEY (id_artista, id_artista_similar),
+    CONSTRAINT fk_artistas_similares_artista
+        FOREIGN KEY (id_artista) REFERENCES Artistas(id_artista) ON DELETE CASCADE,
+    CONSTRAINT fk_artistas_similares_artista_similar
+        FOREIGN KEY (id_artista_similar) REFERENCES Artistas(id_artista) ON DELETE CASCADE
+);
+USE pproyecto_music_stream; 
+SELECT *
+	FROM artistas;
