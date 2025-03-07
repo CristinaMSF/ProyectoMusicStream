@@ -51,7 +51,6 @@ CREATE TABLE Albumes (
 CREATE TABLE Canciones (
 	id_cancion INT PRIMARY KEY AUTO_INCREMENT,
     titulo_cancion VARCHAR(100) NOT NULL,
-    reproducciones INT  DEFAULT 0,  -- Si no se especifica, empieza en 0
     id_album VARCHAR(100) NOT NULL,  -- Relación con Álbumes
     CONSTRAINT fk_canciones_albumes
         FOREIGN KEY (id_album) REFERENCES Albumes(id_album) ON DELETE CASCADE
